@@ -5,9 +5,22 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_city_path</sprite>
+    <sprite>sprites\spr_grass_not_touch</sprite>
+    <sprite>sprites\spr_patch_not_grass</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_city_path</object>
+    <object>objects\obj_grass_not_touch</object>
+    <object>objects\obj_patch_not_grass</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Title_screen</room>
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
