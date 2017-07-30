@@ -9,6 +9,7 @@
     <sprite>sprites\spr_city_path</sprite>
     <sprite>sprites\spr_grass_not_touch</sprite>
     <sprite>sprites\spr_patch_not_grass</sprite>
+    <sprite>sprites\spr_title</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -16,10 +17,11 @@
     <object>objects\obj_city_path</object>
     <object>objects\obj_grass_not_touch</object>
     <object>objects\obj_patch_not_grass</object>
+    <object>objects\obj_title</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Title_screen</room>
-    <room>rooms\room0</room>
+    <room>rooms\room_title_screen</room>
+    <room>rooms\room_town_begining</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
